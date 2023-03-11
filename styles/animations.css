@@ -2,6 +2,7 @@
 /* 
 %       1.- Hover sobre items
 %       2.- Animacion sobre imagen
+%       3.- Animacion sobre
 */
 
 
@@ -27,4 +28,14 @@
         transform: rotate(360deg);
     }
     
+}
+
+/*+ ▃▃▃  3.- Animacion sobre sub items ▃▃▃*/
+@keyframes biting {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
